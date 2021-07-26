@@ -1,0 +1,27 @@
+{
+  "name": "botler",
+  "version": "0.0.1",
+  "description": "A discord bot for a house themed discord server",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/client.js",
+    "dev": "nodemon ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfabellera/botler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jfabellera/botler/issues"
+  },
+  "homepage": "https://github.com/jfabellera/botler#readme"
+}
